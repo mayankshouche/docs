@@ -88,5 +88,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
-  "seo": { "indexHiddenPages": true}
+  "seo": { "indexHiddenPages": true }
 }

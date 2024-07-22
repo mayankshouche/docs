@@ -81,6 +81,13 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "",
+      "pages": [
+        "dupes/dupe-one",
+        "dupes/dupe-two"
+      ]
     }
   ],
   "footerSocials": {

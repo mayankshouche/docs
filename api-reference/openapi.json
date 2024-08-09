@@ -6,7 +6,7 @@
       "version": "1.0.0",
       "description": "A simple API for uploading JPEG images"
     },
-  "servers": [{ "url": "localhost:6767/v1/upload" }],
+  "servers": [{ "url": "http://localhost:6767/v1/upload" }],
   "paths":
     {
       "/upload":

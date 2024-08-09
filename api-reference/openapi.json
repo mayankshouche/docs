@@ -1,0 +1,37 @@
+{
+  "openapi": "3.1.0",
+  "info":
+    {
+      "title": "Image Upload API",
+      "version": "1.0.0",
+      "description": "A simple API for uploading JPEG images"
+    },
+  "servers": [{ "url": "https://api.example.com/v1" }],
+  "paths":
+    {
+      "/upload":
+        {
+          "post":
+            {
+              "summary": "Upload a JPEG image",
+              "description": "Endpoint to upload a JPEG image file",
+              "operationId": "uploadImage",
+              "requestBody": { "content": { "image/jpeg": { } } },
+              "responses":
+                {
+                  "200":
+                    {
+                      "description": "Successful upload",
+                      "content":
+                        {
+                          "application/json":
+                            {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+  "components": { "schemas": {} }
+}

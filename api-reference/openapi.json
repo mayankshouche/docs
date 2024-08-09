@@ -6,7 +6,7 @@
       "version": "1.0.0",
       "description": "A simple API for uploading JPEG images"
     },
-  "servers": [{ "url": "https://api.mintlify.com/v1" }],
+  "servers": [{ "url": "localhost:6767/v1/upload" }],
   "paths":
     {
       "/upload":

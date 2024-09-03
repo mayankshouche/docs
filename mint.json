@@ -28,7 +28,8 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "/openapi.yaml"
     }
   ],
   "anchors": [
@@ -51,11 +52,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,24 +67,11 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "",
-      "pages": [
-        "dupes/dupe-one",
-        "dupes/dupe-two"
-      ]
+      "pages": ["dupes/dupe-one", "dupes/dupe-two"]
     }
   ],
   "footerSocials": {

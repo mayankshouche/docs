@@ -67,7 +67,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": ["api-reference/introduction", "api-reference/get-user"]
     },
     {
       "group": "",

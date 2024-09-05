@@ -78,5 +78,8 @@
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
+  },
+  "seo": {
+    "indexHiddenPages": true
   }
 }

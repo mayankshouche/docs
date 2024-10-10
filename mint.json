@@ -67,7 +67,11 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction", "api-reference/get-user"]
+      "pages": [
+        "api-reference/introduction",
+        "api-reference/get-user",
+        "api-reference/get-meters"
+      ]
     },
     {
       "group": "",

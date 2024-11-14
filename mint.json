@@ -56,7 +56,6 @@
     },
     {
       "group": "Essentials",
-      "version": "v2",
       "pages": [
         "essentials/markdown",
         "essentials/code",
@@ -68,7 +67,6 @@
     },
     {
       "group": "API Documentation",
-      "version": "v1",
       "pages": [
         "api-reference/introduction",
         "api-reference/get-user",
@@ -79,11 +77,41 @@
     {
       "group": "",
       "pages": ["dupes/dupe-one", "dupes/dupe-two"]
+    },
+    {
+      "group": "English", 
+      "version": "English",
+      "pages": ["en/introduction", "en/getting-started", "en/features"]
+    },
+    {
+      "group": "Français",
+      "version": "Français", 
+      "pages": ["fr/introduction", "fr/commencer", "fr/fonctionnalites"]
+    },
+    {
+      "group": "Español",
+      "version": "Español",
+      "pages": ["es/introduccion", "es/empezar", "es/caracteristicas"]
+    },
+    {
+      "group": "한국어",
+      "version": "한국어",
+      "pages": ["ko/소개", "ko/시작하기", "ko/기능"]
+    },
+    {
+      "group": "繁體中文",
+      "version": "繁體中文",
+      "pages": ["zh/介紹", "zh/開始使用", "zh/功能"]
+    },
+    {
+      "group": "Русский", 
+      "version": "Русский",
+      "pages": ["ru/введение", "ru/начало-работы", "ru/возможности"]
     }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "github": "https://github.com/mintlify", 
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
   "font": {
@@ -94,5 +122,12 @@
       "family": "Oswald"
     }
   },
-  "versions": ["v2", "v1"]
+  "versions": [
+    "English",
+    "Français", 
+    "Español",
+    "한국어",
+    "繁體中文",
+    "Русский"
+  ]
 }

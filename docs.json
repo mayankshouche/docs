@@ -32,7 +32,7 @@
       },
       {
         "tab": "API Reference",
-        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+        "pages": ["api-reference/get-pet"]
       }
     ],
     "global": {
@@ -78,5 +78,8 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "api": {
+    "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
   }
 }

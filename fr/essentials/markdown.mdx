@@ -1,0 +1,88 @@
+---
+title: 'Syntaxe Markdown'
+description: 'Texte, titre et style en markdown standard'
+icon: 'text-size'
+---
+
+## Titres
+
+Idéal pour les en-têtes de section.
+
+```md
+## Titres
+```
+
+### Sous-titres
+
+Idéal pour les en-têtes de sous-section.
+
+```md
+### Sous-titres
+```
+
+<Tip>
+
+Chaque **titre** et **sous-titre** crée une ancre et apparaît également dans la table des matières à droite.
+
+</Tip>
+
+## Formatage du Texte
+
+Nous prenons en charge la plupart des formatages markdown. Ajoutez simplement `**`, `_`, ou `~` autour du texte pour le formater.
+
+| Style         | Comment l'écrire   | Résultat        |
+| ------------- | ----------------- | --------------- |
+| Gras          | `**gras**`        | **gras**        |
+| Italique      | `_italique_`      | _italique_      |
+| Barré         | `~barré~`         | ~barré~         |
+
+Vous pouvez les combiner. Par exemple, écrivez `**_gras et italique_**` pour obtenir du texte **_gras et italique_**.
+
+Vous devez utiliser HTML pour écrire du texte en exposant et en indice. C'est-à-dire, ajoutez `<sup>` ou `<sub>` autour de votre texte.
+
+| Taille du Texte | Comment l'écrire          | Résultat               |
+| -------------- | ------------------------ | ---------------------- |
+| Exposant       | `<sup>exposant</sup>`    | <sup>exposant</sup>    |
+| Indice         | `<sub>indice</sub>`      | <sub>indice</sub>      |
+
+## Liens vers les Pages
+
+Vous pouvez ajouter un lien en entourant le texte avec `[]()`. Vous écririez `[lien vers google](https://google.com)` pour [lien vers google](https://google.com).
+
+Les liens vers les pages de votre documentation doivent être relatifs à la racine. En gros, vous devez inclure le chemin complet du dossier. Par exemple, `[lien vers texte](/writing-content/text)` renvoie à la page "Texte" dans notre section composants.
+
+Les liens relatifs comme `[lien vers texte](../text)` s'ouvriront plus lentement car nous ne pouvons pas les optimiser aussi facilement.
+
+## Citations
+
+### Une Ligne
+
+Pour créer une citation, ajoutez un `>` devant un paragraphe.
+
+> Dorothy l'a suivie à travers de nombreuses belles pièces de son château.
+
+```md
+> Dorothy l'a suivie à travers de nombreuses belles pièces de son château.
+```
+
+### Plusieurs Lignes
+
+> Dorothy l'a suivie à travers de nombreuses belles pièces de son château.
+>
+> La Sorcière lui ordonna de nettoyer les marmites et les bouilloires, de balayer le sol et d'alimenter le feu avec du bois.
+
+```md
+> Dorothy l'a suivie à travers de nombreuses belles pièces de son château.
+>
+> La Sorcière lui ordonna de nettoyer les marmites et les bouilloires, de balayer le sol et d'alimenter le feu avec du bois.
+```
+
+### LaTeX
+
+Mintlify prend en charge [LaTeX](https://www.latex-project.org) via le composant Latex.
+
+<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
+
+```md
+<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
+``` 

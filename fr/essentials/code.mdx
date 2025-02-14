@@ -1,0 +1,37 @@
+---
+title: 'Blocs de Code'
+description: 'Afficher du code en ligne et des blocs de code'
+icon: 'code'
+---
+
+## Base
+
+### Code en Ligne
+
+Pour désigner un `mot` ou une `phrase` comme code, entourez-le de backticks (`).
+
+```
+Pour désigner un `mot` ou une `phrase` comme code, entourez-le de backticks (`).
+```
+
+### Bloc de Code
+
+Utilisez des [blocs de code délimités](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) en entourant le code de trois backticks et en faisant suivre les backticks de début par le langage de programmation de votre extrait pour obtenir la coloration syntaxique. En option, vous pouvez également écrire le nom de votre code après le langage de programmation.
+
+```java HelloWorld.java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Bonjour, le Monde!");
+    }
+}
+```
+
+````md
+```java HelloWorld.java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Bonjour, le Monde!");
+    }
+}
+```
+```` 

@@ -9,30 +9,64 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": ["introduction", "quickstart", "development"]
+              },
+              {
+                "group": "Essentials",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/settings",
+                  "essentials/navigation",
+                  "essentials/reusable-snippets"
+                ]
+              }
+            ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "tab": "API Reference",
+            "pages": ["api-reference/get-pet"]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "pages": ["api-reference/get-pet"]
+        "language": "fr",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Commencer",
+                "pages": ["fr/introduction", "fr/quickstart", "fr/development"]
+              },
+              {
+                "group": "Essentiels",
+                "pages": [
+                  "fr/essentials/markdown",
+                  "fr/essentials/code",
+                  "fr/essentials/images",
+                  "fr/essentials/settings",
+                  "fr/essentials/navigation",
+                  "fr/essentials/reusable-snippets"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Référence API",
+            "pages": ["fr/api-reference/get-pet"]
+          }
+        ]
       }
     ],
     "global": {

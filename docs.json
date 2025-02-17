@@ -39,7 +39,7 @@
           },
           {
             "tab": "[NEW] API Reference",
-            "openapi": "openapi.json"
+            "openapi": "openapi2.json"
           }
         ]
       },

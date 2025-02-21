@@ -39,7 +39,7 @@
           },
           {
             "tab": "[NEW] API Reference",
-            "openapi": "openapi-copy.json"
+            "openapi": "openapi.json"
           },
           {
             "tab": "[HOSTED] OpenAPI Reference",

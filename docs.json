@@ -40,6 +40,10 @@
           {
             "tab": "[NEW] API Reference",
             "openapi": "openapi-copy.json"
+          },
+          {
+            "tab": "[HOSTED] OpenAPI Reference",
+            "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
           }
         ]
       },
@@ -118,6 +122,6 @@
     }
   },
   "api": {
-    "openapi": "openapi.json"
+    "openapi": ["https://api.trieve.ai/api-docs/openapi.json"]
   }
 }
